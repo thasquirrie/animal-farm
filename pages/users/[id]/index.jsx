@@ -239,7 +239,7 @@ export default function Example() {
                         mollit ad adipisicing reprehenderit deserunt qui eu.
                       </dd>
                     </div>
-                    <div className='sm:col-span-2'>
+                    {/* <div className='sm:col-span-2'>
                       <dt className='text-sm font-medium text-gray-500'>
                         Attachments
                       </dt>
@@ -274,17 +274,17 @@ export default function Example() {
                           ))}
                         </ul>
                       </dd>
-                    </div>
+                    </div> */}
                   </dl>
                 </div>
-                <div>
+                {/* <div>
                   <a
                     href='#'
                     className='block bg-gray-50 text-sm font-medium text-gray-500 text-center px-4 py-4 hover:text-gray-700 sm:rounded-b-lg'
                   >
                     Read full application
                   </a>
-                </div>
+                </div> */}
               </div>
             </section>
 

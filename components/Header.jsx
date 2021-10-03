@@ -522,13 +522,14 @@ export default function Example() {
                         <span className='sr-only'>Search</span>
                         <SearchIcon className='w-6 h-6' aria-hidden='true' />
                       </a>
-                      <a
-                        href='#'
-                        className='hidden text-sm font-medium text-gray-700 hover:text-gray-800 lg:block'
-                      >
-                        Sodiq
-                      </a>
-
+                      <Link href='/users/1'>
+                        <a
+                          href='#'
+                          className='hidden text-sm font-medium text-gray-700 hover:text-gray-800 lg:block'
+                        >
+                          Sodiq
+                        </a>
+                      </Link>
                       {/* Cart */}
                       {/* <div className='ml-4 flow-root lg:ml-8'>
                         <a
